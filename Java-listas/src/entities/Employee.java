@@ -26,7 +26,7 @@ public class Employee {
 		return salary;
 	}
 	
-	public void salaryIncrease(double percentage) {
+	public void increaseSalary(double percentage) {
 		this.salary += salary*(percentage/100);
 	}
 	

@@ -53,7 +53,7 @@ public class Program {
 		if (result != null) {
 			System.out.print("Enter percentage: ");
 			double percentage = sc.nextDouble();
-			result.salaryIncrease(percentage);
+			result.increaseSalary(percentage);
 			System.out.println();
 		}else {
 			System.out.print("This id does not exist !");
